@@ -1,0 +1,28 @@
+@misc{degiovanni2023specification,
+  title={Specification Inference for Evolving Systems}, 
+  author={Renzo Degiovanni and Facundo Molina and Agustin Nolasco and Nazareno Aguirre and Mike Papadakis},
+  year={2023},
+  eprint={2301.12403},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  note={Pre-print}
+}
+
+@article{10.1145/3643747,
+  author = {Nolasco, Agust\'{\i}n and Molina, Facundo and Degiovanni, Renzo and Gorla, Alessandra and Garbervetsky, Diego and Papadakis, Mike and Uchitel, Sebastian and Aguirre, Nazareno and Frias, Marcelo F.},
+  title = {Abstraction-Aware Inference of Metamorphic Relations},
+  year = {2024},
+  issue_date = {July 2024},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {1},
+  number = {FSE},
+  url = {https://doi.org/10.1145/3643747},
+  doi = {10.1145/3643747},
+  abstract = {Metamorphic testing is a valuable technique that helps in dealing with the oracle problem. It involves testing software against specifications of its intended behavior given in terms of so called metamorphic relations, statements that express properties relating different software elements (e.g., different inputs, methods, etc). The effective application of metamorphic testing strongly depends on identifying suitable domain-specific metamorphic relations, a challenging task, that is typically manually performed. This paper introduces MemoRIA, a novel approach that aims at automatically identifying metamorphic relations. The technique focuses on a particular kind of metamorphic relation, which asserts equivalences between methods and method sequences. MemoRIA works by first generating an object-protocol abstraction of the software being tested, then using fuzzing to produce candidate relations from the abstraction, and finally validating the candidate relations through run-time analysis. A SAT-based analysis is used to eliminate redundant relations, resulting in a concise set of metamorphic relations for the software under test. We evaluate our technique on a benchmark consisting of 22 Java subjects taken from the literature, and compare MemoRIA with the metamorphic relation inference technique SBES. Our results show that by incorporating the object protocol abstraction information, MemoRIA is able to more effectively infer meaningful metamorphic relations, that are also more precise, compared to SBES, measured in terms of mutation analysis. Also, the SAT-based reduction allows us to significantly reduce the number of reported metamorphic relations, while in general having a small impact in the bug finding ability of the corresponding obtained relations.},
+  journal = {Proc. ACM Softw. Eng.},
+  month = {jul},
+  articleno = {21},
+  numpages = {23},
+  keywords = {Metamorphic testing, grammar-based fuzzing, oracle problem}
+}
