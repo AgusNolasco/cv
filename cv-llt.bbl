@@ -19,6 +19,61 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{balestra2026improving}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=524b4fab3e631fd0459bbab12674c07a}{%
+           family={Balestra},
+           familyi={B\bibinitperiod},
+           given={Agustín},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86c352f1b3280a6a7f036a9b45021e0c}{%
+           family={Nolasco},
+           familyi={N\bibinitperiod},
+           given={Agustín},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=479ddd4360b402130a4047bb840ce848}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Facundo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41ac0d8bfffd92de85098740c95f24ba}{%
+           family={Garbervetsky},
+           familyi={G\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5838796ab3b1d6a6f19011aa33afa3e4}{%
+           family={Degiovanni},
+           familyi={D\bibinitperiod},
+           given={Renzo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a805b415699e0b660253aeebdbcf9c2}{%
+           family={Aguirre},
+           familyi={A\bibinitperiod},
+           given={Nazareno},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ca713ec15436244cdde1a0102d9a95d}
+      \strng{fullhash}{db21ada5c6e890be2e68fd6ffc256118}
+      \strng{bibnamehash}{db21ada5c6e890be2e68fd6ffc256118}
+      \strng{authorbibnamehash}{db21ada5c6e890be2e68fd6ffc256118}
+      \strng{authornamehash}{3ca713ec15436244cdde1a0102d9a95d}
+      \strng{authorfullhash}{db21ada5c6e890be2e68fd6ffc256118}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 19th IEEE International Conference on Software Testing, Verification and Validation (ICST)}
+      \field{note}{To appear in ICST 2026}
+      \field{title}{Improving Dynamic Specification Inference with LLM-Generated Counterexamples}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{10.1145/3643747}{article}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=f9fff1e47cc2a55224486652cf251228}{%

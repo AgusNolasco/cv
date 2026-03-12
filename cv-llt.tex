@@ -75,13 +75,10 @@
   % the simpleicons package here instead; but some 
   % font size adjustment might be needed
   %\makefield{{\scriptsize\simpleicon{x}}}{\!\href{https://x.com/overleaf_example}{\texttt{@overleaf\_example}}}
-  \makefield{\faPhone}{\texttt{+54 9 2657 58-5595}}
-  \makefield{\faLinkedin}
-  {\href{https://www.linkedin.com/in/agustin-nolasco/}{\texttt{LinkedIn}}}
-  %
-  %% Next line
-  \newline
+  %\makefield{\faPhone}{\texttt{+54 9 2657 58-5595}}
+  %\makefield{\faLinkedin}{\href{https://www.linkedin.com/in/agustin-nolasco/}{\texttt{LinkedIn}}}
   \makefield{\faGlobe}{\href{https://agusnolasco.github.io/}{\texttt{Personal Website}}}
+  \makefield{\faGithub}{\href{https://github.com/AgusNolasco}{\texttt{GitHub}}}
   % You can use a tabular here if you want to line up the fields.
 }
 
@@ -96,24 +93,20 @@
 \begin{document}
 \makeheaders[c]
 
-\makerubric{aboutme}
+%\makerubric{aboutme}
 
-\makerubric{employment}
 \makerubric{education}
-
-% If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
-%% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
+\makerubric{teaching}
+\makerubric{industrial}
 \input{publications}
-
-\makerubric{researchprojects}
-
-\makerubric{skills}
-
 \makerubric{courses}
-
-\makerubric{misc}
+\makerubric{researchprojects}
+\makerubric{scholarships}
+\makerubric{honors}
+\makerubric{talks}
+\makerubric{supervision}
 
 %\makerubric{referee}
-\input{referee-full}
+%\input{referee-full}
 
 \end{document}
