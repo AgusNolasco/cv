@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
-    \entry{balestra2026improving}{inproceedings}{}
+    \entry{11600523}{inproceedings}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=524b4fab3e631fd0459bbab12674c07a}{%
            family={Balestra},
@@ -68,11 +68,46 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 19th IEEE International Conference on Software Testing, Verification and Validation (ICST)}
-      \field{note}{To appear in ICST 2026}
+      \field{booktitle}{2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)}
       \field{title}{Improving Dynamic Specification Inference with LLM-Generated Counterexamples}
       \field{year}{2026}
       \true{nocite}
+      \field{pages}{393\bibrangedash 404}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ICST69053.2026.00059
+      \endverb
+      \keyw{Large language models;Modeling;Testing;Generative Pre-trained transformer;Printing;Programming;Conferences;Grounding;Tools;Test pattern generators;Specification inference;Contract assertions;Runtime analysis;Large language models}
+    \endentry
+    \entry{11599953}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=86c352f1b3280a6a7f036a9b45021e0c}{%
+           family={Nolasco},
+           familyi={N\bibinitperiod},
+           given={Agustín},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{86c352f1b3280a6a7f036a9b45021e0c}
+      \strng{fullhash}{86c352f1b3280a6a7f036a9b45021e0c}
+      \strng{bibnamehash}{86c352f1b3280a6a7f036a9b45021e0c}
+      \strng{authorbibnamehash}{86c352f1b3280a6a7f036a9b45021e0c}
+      \strng{authornamehash}{86c352f1b3280a6a7f036a9b45021e0c}
+      \strng{authorfullhash}{86c352f1b3280a6a7f036a9b45021e0c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)}
+      \field{title}{Automated Inference of Expressive Metamorphic Relations for Effective Metamorphic Testing}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{22\bibrangedash 24}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ICST69053.2026.00016
+      \endverb
+      \keyw{Testing;Printing;specification inference;metamorphic testing;software testing;dynamic analysis;sat-solving}
     \endentry
     \entry{10.1145/3643747}{article}{}
       \name{author}{9}{}{%
@@ -147,7 +182,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Metamorphic testing is a valuable technique that helps in dealing with the oracle problem. It involves testing software against specifications of its intended behavior given in terms of so called metamorphic relations, statements that express properties relating different software elements (e.g., different inputs, methods, etc). The effective application of metamorphic testing strongly depends on identifying suitable domain-specific metamorphic relations, a challenging task, that is typically manually performed. This paper introduces MemoRIA, a novel approach that aims at automatically identifying metamorphic relations. The technique focuses on a particular kind of metamorphic relation, which asserts equivalences between methods and method sequences. MemoRIA works by first generating an object-protocol abstraction of the software being tested, then using fuzzing to produce candidate relations from the abstraction, and finally validating the candidate relations through run-time analysis. A SAT-based analysis is used to eliminate redundant relations, resulting in a concise set of metamorphic relations for the software under test. We evaluate our technique on a benchmark consisting of 22 Java subjects taken from the literature, and compare MemoRIA with the metamorphic relation inference technique SBES. Our results show that by incorporating the object protocol abstraction information, MemoRIA is able to more effectively infer meaningful metamorphic relations, that are also more precise, compared to SBES, measured in terms of mutation analysis. Also, the SAT-based reduction allows us to significantly reduce the number of reported metamorphic relations, while in general having a small impact in the bug finding ability of the corresponding obtained relations.}
+      \field{abstract}{Metamorphic testing is a valuable technique that helps in dealing with the oracle problem. It involves testing software against specifications of its intended behavior given in terms of so called metamorphic relations, statements that express properties relating different software elements (e.g., different inputs, methods, etc). The effective application of metamorphic testing strongly depends on identifying suitable domain-specific metamorphic relations, a challenging task, that is typically manually performed.This paper introduces MemoRIA, a novel approach that aims at automatically identifying metamorphic relations. The technique focuses on a particular kind of metamorphic relation, which asserts equivalences between methods and method sequences. MemoRIA works by first generating an object-protocol abstraction of the software being tested, then using fuzzing to produce candidate relations from the abstraction, and finally validating the candidate relations through run-time analysis. A SAT-based analysis is used to eliminate redundant relations, resulting in a concise set of metamorphic relations for the software under test. We evaluate our technique on a benchmark consisting of 22 Java subjects taken from the literature, and compare MemoRIA with the metamorphic relation inference technique SBES. Our results show that by incorporating the object protocol abstraction information, MemoRIA is able to more effectively infer meaningful metamorphic relations, that are also more precise, compared to SBES, measured in terms of mutation analysis. Also, the SAT-based reduction allows us to significantly reduce the number of reported metamorphic relations, while in general having a small impact in the bug finding ability of the corresponding obtained relations.CCS Concepts: • Theory of computation → Program specifications; • Software and its engineering → Software testing and debugging; Dynamic analysis.}
       \field{journaltitle}{Proc. ACM Softw. Eng.}
       \field{month}{7}
       \field{number}{FSE}
@@ -164,9 +199,9 @@
       \verb{url}
       \verb https://doi.org/10.1145/3643747
       \endverb
-      \keyw{Metamorphic testing,grammar-based fuzzing,oracle problem}
+      \keyw{Metamorphic testing,oracle problem,grammar-based fuzzing}
     \endentry
-    \entry{degiovanni2023specification}{misc}{}
+    \entry{degiovanni2023specificationinferenceevolvingsystems}{misc}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=5838796ab3b1d6a6f19011aa33afa3e4}{%
            family={Degiovanni},
@@ -211,12 +246,17 @@
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.SE}
       \field{eprinttype}{arXiv}
-      \field{note}{Pre-print}
       \field{title}{Specification Inference for Evolving Systems}
       \field{year}{2023}
       \true{nocite}
       \verb{eprint}
       \verb 2301.12403
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2301.12403
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2301.12403
       \endverb
     \endentry
   \enddatalist

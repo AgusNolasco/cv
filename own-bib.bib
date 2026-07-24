@@ -1,11 +1,11 @@
-@misc{degiovanni2023specification,
+@misc{degiovanni2023specificationinferenceevolvingsystems,
   title={Specification Inference for Evolving Systems}, 
   author={Renzo Degiovanni and Facundo Molina and Agustin Nolasco and Nazareno Aguirre and Mike Papadakis},
   year={2023},
   eprint={2301.12403},
   archivePrefix={arXiv},
   primaryClass={cs.SE},
-  note={Pre-print}
+  url={https://arxiv.org/abs/2301.12403}, 
 }
 
 @article{10.1145/3643747,
@@ -19,18 +19,34 @@
   number = {FSE},
   url = {https://doi.org/10.1145/3643747},
   doi = {10.1145/3643747},
-  abstract = {Metamorphic testing is a valuable technique that helps in dealing with the oracle problem. It involves testing software against specifications of its intended behavior given in terms of so called metamorphic relations, statements that express properties relating different software elements (e.g., different inputs, methods, etc). The effective application of metamorphic testing strongly depends on identifying suitable domain-specific metamorphic relations, a challenging task, that is typically manually performed. This paper introduces MemoRIA, a novel approach that aims at automatically identifying metamorphic relations. The technique focuses on a particular kind of metamorphic relation, which asserts equivalences between methods and method sequences. MemoRIA works by first generating an object-protocol abstraction of the software being tested, then using fuzzing to produce candidate relations from the abstraction, and finally validating the candidate relations through run-time analysis. A SAT-based analysis is used to eliminate redundant relations, resulting in a concise set of metamorphic relations for the software under test. We evaluate our technique on a benchmark consisting of 22 Java subjects taken from the literature, and compare MemoRIA with the metamorphic relation inference technique SBES. Our results show that by incorporating the object protocol abstraction information, MemoRIA is able to more effectively infer meaningful metamorphic relations, that are also more precise, compared to SBES, measured in terms of mutation analysis. Also, the SAT-based reduction allows us to significantly reduce the number of reported metamorphic relations, while in general having a small impact in the bug finding ability of the corresponding obtained relations.},
+  abstract = {Metamorphic testing is a valuable technique that helps in dealing with the oracle problem. It involves testing software against specifications of its intended behavior given in terms of so called metamorphic relations, statements that express properties relating different software elements (e.g., different inputs, methods, etc). The effective application of metamorphic testing strongly depends on identifying suitable domain-specific metamorphic relations, a challenging task, that is typically manually performed.This paper introduces MemoRIA, a novel approach that aims at automatically identifying metamorphic relations. The technique focuses on a particular kind of metamorphic relation, which asserts equivalences between methods and method sequences. MemoRIA works by first generating an object-protocol abstraction of the software being tested, then using fuzzing to produce candidate relations from the abstraction, and finally validating the candidate relations through run-time analysis. A SAT-based analysis is used to eliminate redundant relations, resulting in a concise set of metamorphic relations for the software under test. We evaluate our technique on a benchmark consisting of 22 Java subjects taken from the literature, and compare MemoRIA with the metamorphic relation inference technique SBES. Our results show that by incorporating the object protocol abstraction information, MemoRIA is able to more effectively infer meaningful metamorphic relations, that are also more precise, compared to SBES, measured in terms of mutation analysis. Also, the SAT-based reduction allows us to significantly reduce the number of reported metamorphic relations, while in general having a small impact in the bug finding ability of the corresponding obtained relations.CCS Concepts: • Theory of computation → Program specifications; • Software and its engineering → Software testing and debugging; Dynamic analysis.},
   journal = {Proc. ACM Softw. Eng.},
-  month = {jul},
+  month = jul,
   articleno = {21},
   numpages = {23},
-  keywords = {Metamorphic testing, grammar-based fuzzing, oracle problem}
+  keywords = {Metamorphic testing, oracle problem, grammar-based fuzzing}
 }
 
-@inproceedings{balestra2026improving,
-  author = {Balestra, Agustín and Nolasco, Agustín and Molina, Facundo and Garbervetsky, Diego and Degiovanni, Renzo and Aguirre, Nazareno},
-  title = {Improving Dynamic Specification Inference with LLM-Generated Counterexamples},
-  booktitle = {Proceedings of the 19th IEEE International Conference on Software Testing, Verification and Validation (ICST)},
-  year = {2026},
-  note = {To appear in ICST 2026}
+@INPROCEEDINGS{11600523,
+  author={Balestra, Agustín and Nolasco, Agustín and Molina, Facundo and Garbervetsky, Diego and Degiovanni, Renzo and Aguirre, Nazareno},
+  booktitle={2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)}, 
+  title={Improving Dynamic Specification Inference with LLM-Generated Counterexamples}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={393-404},
+  keywords={Large language models;Modeling;Testing;Generative Pre-trained transformer;Printing;Programming;Conferences;Grounding;Tools;Test pattern generators;Specification inference;Contract assertions;Runtime analysis;Large language models},
+  doi={10.1109/ICST69053.2026.00059}
+}
+
+@INPROCEEDINGS{11599953,
+  author={Nolasco, Agustín},
+  booktitle={2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)}, 
+  title={Automated Inference of Expressive Metamorphic Relations for Effective Metamorphic Testing}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={22-24},
+  keywords={Testing;Printing;specification inference;metamorphic testing;software testing;dynamic analysis;sat-solving},
+  doi={10.1109/ICST69053.2026.00016}
 }
